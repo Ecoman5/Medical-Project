@@ -1,0 +1,115 @@
+.abann{
+ background-image: url(../assets/ban.png);
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+  height: fit-content;
+}
+.abann-text{
+ text-align: center;
+ padding: 24px 59px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.abann-text h1{
+ color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 134.188%;
+  
+}
+.abann-text p{
+  color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.188%;
+}
+.abann-text button{
+  display: flex;
+    width: 115px;
+    height: 39px;
+    padding: 13px 12.466px 15.45px 21px;
+    color: #1E3673;
+      font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      border-radius: 15px;
+        background: #FFF;
+        border: none;
+        margin: 0 auto;
+}
+.abann-text button img{
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.abann-text .butfin{
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .abann {
+      background-image: url(../assets/band.png);
+      width: 100%;
+        height: 526px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+        .abann-text {
+          text-align: center;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .abann-text h1 {
+        color: #FFF;
+          font-family: Roboto;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 134.188%;
+          margin-top: 142px;
+        }
+        .abann-text p{
+          width: 436px;
+          margin: 0 auto;
+          color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 134.188%;
+        }
+                .abann-text button {
+                  display: none;
+                }
+        .abann-text .butfin{
+          display: block;
+          display: flex;
+          width: 192px;
+            height: 60px;
+            color: #1E3673;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            border-radius: 20px;
+            background: #FFF;
+            border: none;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        
+                .abann-text .butfin img {
+                  width: 24px;
+                    height: 30px;
+                  margin-top: 3px;
+                  margin-left: 14px;
+                }
+}

@@ -1,0 +1,305 @@
+.section2{
+ margin: 23px 25px;
+ text-align: center;
+}
+ .st h2{
+color: #1E3673;
+ font-family: Roboto;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 134.188%;
+}
+.sttt{
+  display: block;
+ color: #1E3673;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.188%;
+  width: 325px;
+   height: 88px;
+   margin: 0 auto;
+}
+.stt{
+  display: none;
+}
+.st button{
+ width: 89px;
+  height: 39px;
+  border-radius: 15px;
+   background: #2F98C2;
+   padding: 12px 11px;
+   color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-top: 7px;
+}
+  .vi h2 {
+   color: #1E3673;
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 134.188%;
+   margin-top: 17px;
+  }
+  .vi hr{
+    display: none;
+  }
+ 
+  .vi p {
+   color: #1E3673;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 134.188%;
+   width: 325px;
+   height: 88px;
+   margin: 0 auto;
+  }
+  .mi hr{
+    display: none;
+  }
+  .mi h2 {
+   color: #1E3673;
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 134.188%;
+  }
+ 
+  .mi p {
+   color: #1E3673;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 134.188%;
+   width: 325px;
+   height: 88px;
+   margin: 0 auto;
+  }
+  .str{
+    display: none;
+  }
+  .strr{
+    display: none;
+  }
+
+  @media (min-width: 900px) {
+    .section2{
+      margin-top: 112px;
+      display: flex;
+      margin-left: 100px;
+    }
+    .sect{
+      margin-left: 190px;
+      text-align: start;
+      margin-top: 102px;
+    }
+    .sect img{
+      width: 600px;
+        height: 600px;
+        margin-bottom: 103px;
+        margin-right: 100px;
+    }
+    .st{
+      text-align: start;
+      margin-top: -1px;
+    }
+    .str{
+      display: block;
+      display: flex;
+      gap: 64px;
+      margin-top: 212px;
+    }
+    
+    .str1 h1{
+color: #FFF;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -190px;
+  margin-right: 10px;
+  text-align: center;
+    }
+    .str1 p{
+      color: #FFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-right: 10px;
+    }
+                .str2 h1 {
+                  color: #FFF;
+                  font-family: Roboto;
+                  font-size: 48px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: normal;
+                  margin-top: -190px;
+                  margin-right: 10px;
+                  text-align: center;
+                }
+        
+                .str2 p {
+                  color: #FFF;
+                  font-family: Roboto;
+                  font-size: 20px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                  text-align: center;
+                  margin-right: 10px;
+                }
+  .strr{
+    display: block;
+    display: flex;
+    gap: 64px;
+    margin-top: 120px;
+  }
+         .strr1 h1 {
+           color: #FFF;
+           font-family: Roboto;
+           font-size: 48px;
+           font-style: normal;
+           font-weight: 700;
+           line-height: normal;
+           margin-top: -190px;
+           margin-right: 10px;
+           text-align: center;
+         }
+    
+         .strr1 p {
+           color: #FFF;
+           font-family: Roboto;
+           font-size: 20px;
+           font-style: normal;
+           font-weight: 500;
+           line-height: normal;
+           text-align: center;
+           margin-right: 10px;
+         }
+                         .strr2 h1 {
+                           color: #FFF;
+                           font-family: Roboto;
+                           font-size: 48px;
+                           font-style: normal;
+                           font-weight: 700;
+                           line-height: normal;
+                           margin-top: -190px;
+                           margin-right: 10px;
+                           text-align: center;
+                         }
+            
+                         .strr2 p {
+                           color: #FFF;
+                           font-family: Roboto;
+                           font-size: 20px;
+                           font-style: normal;
+                           font-weight: 500;
+                           line-height: normal;
+                           text-align: center;
+                           margin-right: 10px;
+                         }
+    .st h2{
+      color: #1E3673;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 134.188%;
+    }
+    .st button{
+      width: 156px;
+        height: 60px;
+        color: #FFF;
+          font-family: Roboto;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+    }
+    .sttt{
+      display: none;
+    }
+    .stt{
+      width: 620px;
+      text-align: start;
+      display: block;
+      color: #1E3673;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 134.188%;
+    }
+    .vi hr{
+      display: block;
+      width: 355.261px;
+        height: 1px;
+    }
+    .vi h2{
+      color: #1E3673;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 134.188%;
+        margin-top: -100px;
+    }
+    .vi p{
+      width: 376px;
+      text-align: start;
+      color: #1E3673;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 134.188%;
+        margin-left: -1px;
+    }
+    .mi hr{
+      display: block;
+      width: 355.261px;
+        height: 1px;
+    }
+    .mi h2{
+      margin-top: 41px;
+      color: #1E3673;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 134.188%;
+    }
+    .mi p{
+      width: 376px;
+      text-align: start;
+      color: #1E3673;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 134.188%;
+        margin-bottom: 140px;
+        margin-left: -1px;
+    }
+    
+  }

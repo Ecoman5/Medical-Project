@@ -1,0 +1,105 @@
+.sec{
+ background-color:  #BEECFF;
+ background-size: cover;
+}
+.sec img{
+ margin-bottom: -70px;
+ width: 100%;
+}
+.sec-text{
+margin: 15.66px 25px;
+  margin-right: 25px;
+}
+.sec-text h1{
+ color: #1E3673;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136.687%;
+}
+.sec-text p{
+ text-align: start;
+ color: #1E3673;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 134.188%;
+}
+.sec-text .desk{
+  display: none;
+}
+.sec button{
+ width: 119.835px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 20px;
+   background: #FFF;
+   border: none;
+   color: #1E3673;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 44.5px;
+}
+
+@media (min-width: 900px) {
+
+  .sec{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+      height: 813px;
+  }
+  .sec-text{
+   margin-top: 116px;
+  width: 640px;
+  }
+  .sec-text .desk {
+    display: block;
+    margin-top: 24px;
+    margin-left: -100px;
+      color: #1E3673;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        width: 640px;
+          line-height: 134.188%;
+    }
+    .sec-text h1{
+      margin-left: -100px;
+      color: #1E3673;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 136.687%; 
+    }
+    .sec-text p {
+      display: none;
+    }
+    .sec img{
+    width: 378px;
+      height: 681px;
+      margin-top: 134px;
+      margin-right: 200px;
+      flex-shrink: 0;
+    }
+    .sec-text button{
+      width: 197px;
+        height: 60px;
+      margin-top: 34px;
+      border-radius: 20px;
+        background: #FFF;
+        color: #1E3673;
+          font-family: Roboto;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+      margin-left: -100px;
+    }
+}

@@ -1,0 +1,178 @@
+.foot{
+ width: 100%;
+ background-color: #1E3673;
+ margin-top: 28px;
+ text-align: center;
+ padding-top: 25px;
+  padding-bottom: 24px;
+}
+.foot-desk{
+  display: none;
+}
+.foot h3{
+ color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.icons {
+ display: flex;
+ gap: 20px;
+ justify-content: center;
+ margin-top: 9px;
+}
+.find .tel{
+ color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 18px;
+}
+.find .tel span{
+ color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.find .fax {
+ color: #FFF;
+ font-family: Roboto;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal;
+}
+
+.find .fax span {
+ color: #FFF;
+ font-family: Roboto;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+.find .em {
+ color: #FFF;
+ font-family: Roboto;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal;
+}
+
+.find .em span {
+ color: #FFF;
+ font-family: Roboto;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+.find hr{
+ width: 90%;
+  height: 2px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background: rgba(255, 255, 255, 0.30);
+}
+.find .copy{
+color: #FFF;
+ font-family: Roboto;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+@media (min-width: 900px) {
+  .foot{
+    display: none;
+  }
+  .foot-desk{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+      height: 489px;
+      background: #1E3673;
+      margin-top: 64px;
+      padding-top: 131px;
+  }
+.med-desk{
+  margin-left: 102px;
+  width: fit-content;
+}
+  .med-desk p{
+    color: #FFF;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 13px;
+      margin-top: 34px;
+  }
+  .med-desk .icons{
+    width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      margin-top: 31px;
+      margin-left: 60px;
+      
+  }
+  .info h3{
+color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .info p{
+    color: #FFF;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+    .quick h3 {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  
+    .quick p {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+        .com h3 {
+          color: #FFF;
+          font-family: Roboto;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+    
+        .com p {
+          color: #FFF;
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+  
+}
