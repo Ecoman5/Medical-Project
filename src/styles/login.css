@@ -1,0 +1,127 @@
+.bbb{
+  width: 100%;
+  height: 150vh;
+  background-color: #DEF1F9;
+  padding-top: 87px;
+    padding-bottom: 291.66px;
+    padding-left: 50px;
+      padding-right: 50px;
+}
+.fform .mmo {
+  margin-bottom: -40px;
+}
+.medkit h5{
+color: #1E3673;
+ font-family: Roboto;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 134.188%;
+}
+.medkit p{
+ color: #1E3673;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132.188%;
+}
+.fform img {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.email input{
+ width: 300px;
+  height: 39px;
+  border-radius: 20px;
+   border: 2px solid rgba(0, 0, 0, 0.20);
+   background: #FFF;
+   padding: 12px 105px;
+}
+.email label{
+ color: #1E3673;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132.188%;
+}
+.email input::placeholder{
+ color: rgba(0, 0, 0, 0.40);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132.188%;
+  width: fit-content;
+}
+.email p{
+  color: #C5221F;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.188%;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+.email a{
+  text-decoration: none;
+}
+.email button{
+  width: 300px;
+    height: 39px;
+    border-radius: 20px;
+      background: #1E3673;
+      margin-top: -158px;
+    color: #FFF;
+      font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 132.188%;
+}
+
+.email .pp{
+  color: #1E3673;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.188%;
+}
+.pp span{
+  color: #2F98C2;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.188%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login img{
+ display: none;
+}

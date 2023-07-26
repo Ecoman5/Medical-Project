@@ -1,0 +1,78 @@
+.nv{
+ display: flex;
+ justify-content: space-around;
+ background-color:  #FFF;;
+ width: 100%;
+ padding-top: 14px;
+}
+.nv img{
+ width: 138.685px;
+  height: 36.336px;
+}
+.nv h3{
+ color: #2F98C2;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.nv h4{
+ color: #C5221F;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.aa{
+   width: 100%;
+    background-color: #DEF1F9;
+}
+.medkit h5{
+ color: #1E3673;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 45.35px;
+}
+.em{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.em input{
+ width: 300px;
+  height: 39px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 20px;
+   border: 1px solid #1E3673;
+   background: #FFF;
+}
+.em input::placeholder{
+ color: #1E3673;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.em button{
+ width: 89px;
+  height: 39px;
+  border-radius: 20px;
+   background: #2F98C2;
+   color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top:50px;
+    margin-bottom: 100px;
+}

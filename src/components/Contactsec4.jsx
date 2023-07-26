@@ -10,7 +10,8 @@ const Contactsec4 = () => {
       <section className="C4">
         <Row className="g-2">
           <form>
-            <div className=" d-flex gap-3 justify-content-center mt-5 ">
+            <h2>Send us a message</h2>
+            <div className=" d-flex gap-3 justify-content-center  ">
               <input
                 className="input ps-3 "
                 type="text"
@@ -19,35 +20,13 @@ const Contactsec4 = () => {
               <input
                 className="input ps-3 "
                 type="number"
-                placeholder="Phone*"
+                placeholder  ="Phone*"
               />
             </div>
+            <input className="inputt ps-3 " type="email" placeholder="Email*" />
+            <textarea name="" id="" className="inputtt"></textarea>
+            <button className="snd">Send Message</button>
           </form>
-
-          <Form.Floating className="mb-3  my-4 nam">
-            <Form.Control
-              id="floatingInputCustom"
-              type="email"
-              placeholder="name@example.com"
-            />
-            <label htmlFor="floatingInputCustom">Email*</label>
-          </Form.Floating>
-
-          <FloatingLabel
-            className=" my-4 nam"
-            controlId="floatingTextarea2"
-            label="Messages*"
-          >
-            <Form.Control
-              as="textarea"
-              placeholder="Leave a comment here"
-              style={{ height: "180px" }}
-            />
-            <center>
-              {" "}
-              <button className="btn  text-white">Send Message</button>{" "}
-            </center>
-          </FloatingLabel>
         </Row>
       </section>
     </div>

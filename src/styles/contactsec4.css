@@ -1,0 +1,73 @@
+.C4{
+ width: 325px;
+  height: 327px;
+  flex-shrink: 0;
+ border-radius: 10px;
+  background-color: #FFF;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: -25px;
+  margin: auto;
+}
+form h2{
+ color: #1E3673;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 134.188%;
+  margin-top: 24px;
+}
+form input{
+ width: 118px;
+  height: 39px;
+  border-radius: 10px;
+   border: 1px solid #2F98C2;
+   background-color: #FFF;
+}
+input::placeholder{
+ color: rgba(0, 0, 0, 0.50);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: fit-content;
+}
+form .inputt{
+ width: 246px;
+  height: 39px;
+  border-radius: 10px;
+   border: 1px solid #2F98C2;
+   background-color: #FFF;
+   margin: 12px 40px;
+
+}
+form .inputtt {
+width: 242.5px;
+ height: 111.5px;
+ border-radius: 10px;
+ border: 1px solid #2F98C2;
+ background-color: #FFF;
+ margin: 12px 40px;
+}
+form button{
+  width: 103px;
+    height: 35.372px;
+    border-radius: 10px;
+      opacity: 0.8999999761581421;
+      background: linear-gradient(175deg, #2F98C2 0%, #1E3673 100%);
+      color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: none;
+        margin-left: 113px;
+        margin-right: 112px;
+        position: relative;
+        bottom: 30px;
+}

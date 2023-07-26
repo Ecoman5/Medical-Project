@@ -1,6 +1,7 @@
-import React from 'react'
-import "../styles/section1.css"
-import Bottle from "../assets/bottle.png"
+import React from "react";
+import "../styles/section1.css";
+import Bottle from "../assets/bottle.png";
+import { Link } from "react-router-dom";
 
 const Section1 = () => {
   return (
@@ -38,11 +39,13 @@ const Section1 = () => {
             felis tincidunt. Aenean enim sed pellentesque arcu. Lorem posuere
             elit est in interdum tempus.
           </p>
-          <button type="submit">Register Now</button>
+          <Link to="/login">
+            <button type="submit">Register Now</button>
+          </Link>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Section1
+export default Section1;

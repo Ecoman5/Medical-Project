@@ -1,5 +1,4 @@
 import React from "react";
-import bg2 from "../assets/bg2.png";
 import ambu1 from "../assets/ambu1.png";
 import covid from "../assets/covid.png";
 import gene from "../assets/gene.png";

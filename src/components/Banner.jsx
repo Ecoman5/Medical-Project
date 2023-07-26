@@ -22,11 +22,13 @@ const Banner = () => {
             et adipiscing sociis commodo sit sem. Ac fusce vel facilisis
             pellentesque aliquam elentum. Massa morbi phasellus viverra nisi id.
           </p>
-          <button type="submit">Get Started</button>
+          <Link to="/signup">
+            <button type="submit">Get Started</button>
+          </Link>
           <div className="ban-text2">
             <h2>Dr. Raj Spencer</h2>
             <p>Consultant</p>
-            <Link to="/Login" className='text-decoration-none btb'>
+            <Link to="/Login" className="text-decoration-none btb">
               <button type="submit">Book Appointment</button>
             </Link>
           </div>

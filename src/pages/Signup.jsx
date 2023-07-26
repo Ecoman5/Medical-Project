@@ -1,52 +1,49 @@
 import React from "react";
-import logo from "../assets/logo.png";
-import nus from "../assets/nus.png";
-import "../styles/login.css";
+import logo from "../assets/Logo.png";
+import Stella from "../assets/Stella.png";
+import "../styles/signup.css";
 import facebk from "../assets/facebk.png";
 import gmail from "../assets/gmail.png";
 import insta from "../assets/insta.png";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
-    <div>
-      <Header/>
-      <div className="d-md-flex justify-content-center log">
+    <div className="bbb">
+      <div className="d-md-flex justify-content-md-around log">
         <center className="fform">
-          <img src={logo} alt="logo" />
           <div className="medkit">
-            <h5>Log In to MedKit</h5>
+            <Link to="/">
+              <img className="imb" src={logo} alt="logo" />
+            </Link>
+            <h5>Create an Account</h5>
             <img src={facebk} alt="" /> <img src={gmail} alt="" />{" "}
             <img src={insta} alt="" />
             <p>Or use your email address:</p>
           </div>
           <form className="email">
-            <label htmlFor="Email">Full Name</label> <br />
-            <input type="Email" placeholder="Aisha Oyelola" /> <br />
-            <label htmlFor="Email">Email</label> <br />
-            <input type="Email" placeholder="elo@techstudio.com" /> <br />
-            <label htmlFor="Password">Password</label> <br />
-            <input type="number" placeholder="Min 8 characters" />
-            <button className="btn">Log In</button>
+            <label htmlFor="text">Full Name</label> <br />
+            <input type="text" placeholder="Aisha Oyelola" /> <br />
+            <label htmlFor="email">Email</label> <br />
+            <input type="email" placeholder="aisha@gmail.com" /> <br />
+            <label htmlFor="password">Password</label> <br />
+            <input type="password" placeholder="Min 8 characters" />
+            <button className="btn">Sign Up</button>
             <div className="spa">
-              <p>
-                Don’t have an account? <span> Sign Up </span>{" "}
+              <p className="pp">
+                Already a user?
+                <Link to="/login">
+                  <span> Log In </span>
+                </Link>
               </p>
             </div>
           </form>
         </center>
 
         <div className="login">
-          <img
-            src={nus}
-            alt="Doctors"
-            className="img-fluid"
-            style={{ height: "590px" }}
-          />
+          <img src={Stella} alt="Doctors" className="img-fluid" />
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };
