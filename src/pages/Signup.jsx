@@ -21,14 +21,14 @@ const Signup = () => {
             <img src={insta} alt="" />
             <p>Or use your email address:</p>
           </div>
-          <form className="email">
+          <form className="email2">
             <label htmlFor="text">Full Name</label> <br />
             <input type="text" placeholder="Aisha Oyelola" /> <br />
             <label htmlFor="email">Email</label> <br />
             <input type="email" placeholder="aisha@gmail.com" /> <br />
             <label htmlFor="password">Password</label> <br />
             <input type="password" placeholder="Min 8 characters" />
-            <button className="btn">Sign Up</button>
+            <button className="sig">Sign Up</button>
             <div className="spa">
               <p className="pp">
                 Already a user?

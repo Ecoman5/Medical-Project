@@ -21,13 +21,13 @@ const Login = () => {
             <img src={insta} alt="" />
             <p>Or use your email address:</p>
           </div>
-          <form className="email">
+          <form className="email1">
             <label htmlFor="Email">Email</label> <br />
             <input type="Email" placeholder="elo@techstudio.com" /> <br />
             <label htmlFor="Password">Password</label> <br />
             <input type="number" placeholder="Min 8 characters" />
               <p>Forgot your password?</p>
-            <button className="btn">Log In</button>
+            <button className="lgi">Log In</button>
             <div className="spa">
               <p className="pp">
                 Don’t have an account?{" "}

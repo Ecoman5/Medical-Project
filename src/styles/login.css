@@ -7,6 +7,9 @@
     padding-left: 50px;
       padding-right: 50px;
 }
+.fform{
+  margin: auto;
+}
 .fform .mmo {
   margin-bottom: -40px;
 }
@@ -30,13 +33,13 @@ color: #1E3673;
   margin-bottom: 15px;
   margin-top: 15px;
 }
-.email{
+.email1{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.email input{
+.email1 input{
  width: 300px;
   height: 39px;
   border-radius: 20px;
@@ -44,7 +47,7 @@ color: #1E3673;
    background: #FFF;
    padding: 12px 105px;
 }
-.email label{
+.email1 label{
  color: #1E3673;
   font-family: Roboto;
   font-size: 12px;
@@ -52,8 +55,8 @@ color: #1E3673;
   font-weight: 400;
   line-height: 132.188%;
 }
-.email input::placeholder{
- color: rgba(0, 0, 0, 0.40);
+.email1 input::placeholder{
+color: rgba(0, 0, 0, 0.40);
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -61,7 +64,7 @@ color: #1E3673;
   line-height: 132.188%;
   width: fit-content;
 }
-.email p{
+.email1 p{
   color: #C5221F;
     font-family: Roboto;
     font-size: 12px;
@@ -71,24 +74,24 @@ color: #1E3673;
     margin-top: 15px;
     margin-bottom: -5px;
 }
-.email a{
+.email1 a{
   text-decoration: none;
 }
-.email button{
+.email1 .lgi{
+  margin-top: 50px;
   width: 300px;
     height: 39px;
     border-radius: 20px;
-      background: #1E3673;
-      margin-top: -158px;
+    background: #1E3673;
     color: #FFF;
-      font-family: Roboto;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 132.188%;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.188%;
 }
 
-.email .pp{
+.email1 .pp{
   color: #1E3673;
     font-family: Roboto;
     font-size: 12px;

@@ -33,14 +33,15 @@
  margin-top: 15px;
 }
 
-.email {
+.email2 {
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ margin: auto;
 }
 
-.email input {
+.email2 input {
  width: 300px;
  height: 39px;
  border-radius: 20px;
@@ -49,7 +50,7 @@
  padding: 12px 105px;
 }
 
-.email label {
+.email2 label {
  color: #1E3673;
  font-family: Roboto;
  font-size: 12px;
@@ -59,8 +60,9 @@
  margin-bottom: -20px;
 }
 
-.email input::placeholder {
+.email2 input::placeholder {
  color: rgba(0, 0, 0, 0.40);
+ width: fit-content;
  font-family: Roboto;
  font-size: 12px;
  font-style: normal;
@@ -69,22 +71,21 @@
 }
 
 
-.email button {
- width: 300px;
- height: 39px;
- border-radius: 20px;
- background: #1E3673;
- margin-top: 15px;
- color: #FFF;
- font-family: Roboto;
- font-size: 12px;
- font-style: normal;
- font-weight: 400;
- line-height: 132.188%;
- margin-top: 50px;
+.email2 .sig {
+  width: 300px;
+   height: 39px;
+   border-radius: 20px;
+   background: #1E3673;
+   color: #FFF;
+   font-family: Roboto;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 132.188%;
+   margin-top: 50px;
 }
 
-.email .pp {
+.email2 .pp {
  color: #1E3673;
  font-family: Roboto;
  font-size: 12px;
